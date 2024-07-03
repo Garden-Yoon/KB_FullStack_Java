@@ -4,7 +4,7 @@ public class Input {
     static Scanner scanner = new Scanner(System.in);
     // 사용자한테 입력받을 때 출력할 문구를 title로 받아옴
     public static int getInt(String title){
-        System.out.println(title);
+        System.out.print(title);
         return Integer.parseInt(scanner.nextLine());
     }
 }
