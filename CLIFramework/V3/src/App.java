@@ -17,8 +17,11 @@ public class App {
         };
     }
 
+    // executeCommand : 만들어둔 메소드들을 사용자의 입력 값에 따라 호출
     public void executeCommand(int selectNo){
+        // 인덱스로 접근해야 하기 때문에 사용자가 입력한 번호에서 -1 해줌
         Command command = commands[selectNo-1];
+        // 가져온 커맨드의 execute가 실행된다
         command.execute();
     }
 
