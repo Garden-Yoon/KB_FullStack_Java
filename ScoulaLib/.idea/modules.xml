@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/scoulacli.iml" filepath="$PROJECT_DIR$/scoulacli.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scoulacli.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scoulacli.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scoulacli.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scoulacli.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.main.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.test.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.test.iml" />
     </modules>
   </component>
 </project>

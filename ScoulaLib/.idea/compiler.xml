@@ -5,6 +5,8 @@
       <module name="scoulacli" target="17" />
       <module name="scoulacli.main" target="17" />
       <module name="scoulacli.test" target="17" />
+      <module name="untitled.main" target="17" />
+      <module name="untitled.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
