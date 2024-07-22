@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce55d5d2-d326-4bda-88ad-07e5b83c2edd" name="Changes" comment="240718_1709_학생컴퓨터 Commit">
+    <list default="true" id="ce55d5d2-d326-4bda-88ad-07e5b83c2edd" name="Changes" comment="240718_1856_학생컴퓨터 Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/command/DeleteTodoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/command/DetailTodoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/command/PrintTodoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/domain/Todo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/exception/BadMenuException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StudentScore/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StudentScore/src/main/java/org/scoula/studentscore/domain/StudentScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../StudentScore/src/main/java/org/scoula/studentscore/service/StudentScoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -80,7 +93,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -120,7 +133,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721286030720</updated>
-      <workItem from="1721286031783" duration="7258000" />
+      <workItem from="1721286031783" duration="12686000" />
+      <workItem from="1721632917272" duration="5135000" />
     </task>
     <task id="LOCAL-00001" summary="240718_1709_학생컴퓨터 Commit">
       <option name="closed" value="true" />
@@ -130,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721290189594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="240718_1856_학생컴퓨터 Commit">
+      <option name="closed" value="true" />
+      <created>1721296619505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721296619505</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +160,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="240718_1709_학생컴퓨터 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="240718_1709_학생컴퓨터 Commit" />
+    <MESSAGE value="240718_1856_학생컴퓨터 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="240718_1856_학생컴퓨터 Commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
