@@ -4,20 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce55d5d2-d326-4bda-88ad-07e5b83c2edd" name="Changes" comment="240718_1856_학생컴퓨터 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/command/DeleteTodoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/command/DetailTodoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/command/PrintTodoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoListDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/domain/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ScoulaLib/scoulacli/src/main/java/org/scoula/lib/cli/exception/BadMenuException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StudentScore/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StudentScore/src/main/java/org/scoula/studentscore/domain/StudentScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StudentScore/src/main/java/org/scoula/studentscore/service/StudentScoreService.java" afterDir="false" />
+    <list default="true" id="ce55d5d2-d326-4bda-88ad-07e5b83c2edd" name="Changes" comment="240722_1751_학생컴퓨터 Commit">
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/todo/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/todo/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/todo/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/jdbc_ex.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/main/java/org/example/jdbc_ex/common/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/main/java/org/example/jdbc_ex/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/main/java/org/example/jdbc_ex/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/main/java/org/example/jdbc_ex/domain/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/test/java/JUnitCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/test/java/JUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/test/java/org/example/jdbc_ex/common/JDBCUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/test/java/org/example/jdbc_ex/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/test/java/org/example/jdbc_ex/test/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdbc_ex/src/test/java/org/example/jdbc_ex/test/CrudTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/dao/TodoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/todo/TodoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/command/DeleteTodoCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/command/DetailTodoCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/todo/command/PrintTodoCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ScoulaLib/scoulacli/build/libs/ScoulaCli-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../ScoulaLib/scoulacli/build/libs/ScoulaCli-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ScoulaLib/scoulacli/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ScoulaLib/scoulacli/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/todo/domain/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/todo/domain/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/todo/exception/PasswordMissmatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/todo/exception/PasswordMissmatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/todo/exception/UsernameDuplicateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ScoulaTodo/src/main/java/org/scoula/todo/exception/UsernameDuplicateException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +91,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,15 +125,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/KB_FullStack_Java/CLIFramework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3954023",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.scoula.todo.dao" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.scoula.todo.TodoApp" />
@@ -134,7 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1721286030720</updated>
       <workItem from="1721286031783" duration="12686000" />
-      <workItem from="1721632917272" duration="5135000" />
+      <workItem from="1721632917272" duration="6349000" />
+      <workItem from="1721717710159" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="240718_1709_학생컴퓨터 Commit">
       <option name="closed" value="true" />
@@ -152,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721296619505</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="240722_1751_학생컴퓨터 Commit">
+      <option name="closed" value="true" />
+      <created>1721638278168</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721638278168</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +216,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="240718_1709_학생컴퓨터 Commit" />
     <MESSAGE value="240718_1856_학생컴퓨터 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="240718_1856_학생컴퓨터 Commit" />
+    <MESSAGE value="240722_1751_학생컴퓨터 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="240722_1751_학생컴퓨터 Commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
